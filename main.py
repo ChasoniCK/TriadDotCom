@@ -27,9 +27,7 @@ os.environ["QT_FONT_DPI"] = "96" # FIX Problem for High DPI and Scale above 100%
 
 # PROGRAM UPDATE AT STARTUP
 # ///////////////////////////////////////////////////////////////
-
-update_url = ''
-wget.download()
+os.system('git pull https://github.com/ChasoniCK/TriadDotCom')
 
 # SET AS GLOBAL WIDGETS
 # ///////////////////////////////////////////////////////////////
